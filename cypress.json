@@ -1,8 +1,9 @@
 {
-  "baseUrl": "http://localhost:8080/#!/",
+  "baseUrl": "https://integration.webassign.net",
   "apiRoute": "http://localhost:3001",
   "env": {
      "api_server": "http://localhost:3001/",
+     "wa_api_server": "https://integration.webassign.net",
      "some": "value"
    }
 }
