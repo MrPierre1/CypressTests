@@ -8,7 +8,6 @@ before(function(){
      user = jsonData
   })
 })
-
   it('Can Login with an existing faculty user ', () => {
     cy.request({
       url: `${Cypress.env("wa_api_server")}/web/auth/login/sso`,
